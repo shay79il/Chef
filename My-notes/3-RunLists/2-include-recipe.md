@@ -1,4 +1,4 @@
-# Incluse_Recipe
+# Include_Recipe
 
 ## How to bundle multiple recipes to avoid running LONG RunLists
 
@@ -25,7 +25,9 @@ Have 3 `rb` files
 - `apachefile.rb`
 - `apacheservice.rb`
 
-And have the `default.rb` file to be as follows
+### And have the `default.rb` file to be as follows
+
+### Notice no `.rb` extensions
 
 ```ruby
 include_recipe 'webserver::apachepkg'
