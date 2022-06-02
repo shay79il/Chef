@@ -8,7 +8,7 @@ mkdir /var/tmp/demorecipe
 vi demoweb.rb
 ```
 
-### content of demoweb.rb
+### content of `demoweb.rb`
 
 ```ruby
 # Web server package installation

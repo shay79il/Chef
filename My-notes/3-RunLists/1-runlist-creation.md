@@ -7,20 +7,19 @@ chef-client --runlist "recipe[cookbook-Name::Recipe-Name]"
 
 ## Chef RunList composed from 4 steps
 
-- Create - 'chef generate cookbook `<cookbook-Name>`'
-- Check - 'cookstyle `<cookbook-Name>`'
-- Test - 'chef-client --local-mode --runlist "recipe[webserver::default]" --why-run'
-- Run - 'chef-client --local-mode --runlist "recipe[webserver::default]"'
+- Create - `chef generate cookbook <cookbook-Name>`
+- Check - `cookstyle <cookbook-Name>`
+- Test - `chef-client --local-mode --runlist "recipe[webserver::default]" --why-run`
+- Run - `chef-client --local-mode --runlist "recipe[webserver::default]"`
 
 ```bash
 # To refer to the default recipe omit the 'recipe-name'
 chef-client --local-mode --runlist "recipe[webserver]"
 ```
 
-
 ## There are 4 types of RunLists
 
-### 1. With default recipe 'default.rb'
+### 1. With default recipe `default.rb`
 
 ```bash
 chef-client --local-mode --runlist "recipe[webserver::default]" --why-run

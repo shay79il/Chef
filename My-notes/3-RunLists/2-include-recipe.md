@@ -10,7 +10,7 @@ chef-client --local-mode --runlist  \
      recipe[webserver::apache2]"
 ```
 
-## 1. Divide your **long** 'rb' file to multiple **meaningful** recipes
+## 1. Divide your **long** `rb` file to multiple **meaningful** recipes
 
 E.g.
 Instead of having one big file to
@@ -19,13 +19,13 @@ Instead of having one big file to
 - Manipulating the html file
 - Start the apache service
 
-Have 3 _`rb`_ files
+Have 3 `rb` files
 
 - `apachepkg.rb`
 - `apachefile.rb`
 - `apacheservice.rb`
 
-And have the _`default.rb`_ file to be as follows
+And have the `default.rb` file to be as follows
 
 ```ruby
 include_recipe 'webserver::apachepkg'

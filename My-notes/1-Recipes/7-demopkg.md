@@ -8,7 +8,7 @@ mkdir /var/tmp/demorecipe
 vi demopkg.rb
 ```
 
-### content of demopkg.rb
+### content of `demopkg.rb`
 
 ```ruby
 package 'nfs-kernel-server' do

@@ -8,7 +8,7 @@ mkdir /var/tmp/demorecipe
 vi demoservice.rb
 ```
 
-### content of demoservice.rb
+### content of `demoservice.rb`
 
 ```ruby
 service 'nfs-kernel-server' do

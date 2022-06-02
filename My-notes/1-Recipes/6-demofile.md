@@ -8,7 +8,7 @@ mkdir /var/tmp/demorecipe
 vi demofile.rb
 ```
 
-### content of demofile.rb
+### content of `demofile.rb`
 
 ```ruby
 file '/var/tmp/testfile' do

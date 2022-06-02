@@ -32,4 +32,4 @@ chef-client --local-mode "recipe[webserver]"
 
 # For help
 
-## chef generate --help
+## `chef generate --help`

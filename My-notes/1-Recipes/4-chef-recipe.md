@@ -2,10 +2,10 @@
 
 ## Composed from 4 steps
 
-1. Create - '.rb' files (rb stands for ruby)
+1. Create - `.rb` files (rb stands for ruby)
 2. Check - cookstyle <file.rb>
-3. Test - 'chef-client --local-mode --why-run <file.rb>'
-4. Run - 'chef-client --local-mode <file.rb>'
+3. Test - `chef-client --local-mode --why-run <file.rb>`
+4. Run - `chef-client --local-mode <file.rb>`
 
 # Example: demouser.rb
 
@@ -17,7 +17,7 @@ mkdir /var/tmp/demorecipe
 vi demouser.rb
 ```
 
-**Content of 'demouser.rb'**
+**Content of `demouser.rb`**
 
 ```ruby
 user 'shay79ill' do
@@ -25,8 +25,6 @@ user 'shay79ill' do
   uid   '9999'
 end
 ```
-
----
 
 ## 2. Check
 

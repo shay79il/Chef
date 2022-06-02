@@ -2,7 +2,7 @@
 
 ## How to reference one **cookbook** to another **cookbook**
 
-### 1. Goto the _`metadat.md`_ file in the dependent cookbook and add the following
+### 1. Goto the `metadat.md` file in the dependent cookbook and add the following
 
 ```ruby
 depends '<cookbook-name>'
@@ -11,7 +11,7 @@ depends '<cookbook-name>'
 depends 'ntpserver'
 ```
 
-### 2. Add to the dependent cookbook _`default.rb`_ file the following
+### 2. Add to the dependent cookbook `default.rb` file the following
 
 ```ruby
 include_recipe 'ntpserver::default'

@@ -8,7 +8,7 @@ mkdir /var/tmp/demorecipe
 vi demouser.rb
 ```
 
-### _content of demouser.rb_
+### content of `demouser.rb`
 
 ```ruby
 user 'shay79ill' do

@@ -16,7 +16,7 @@ sshfs ubuntu@34.207.124.248:/home/ubuntu ~/remote-chef -o reconnect -o IdentityF
 
 >     Over the EC2 do the following (until 'which ruby' command)
 
-## 5. Go to '.chef' directory
+## 5. Go to `.chef` directory
 
 ```bash
 # where we downloaded the 'Starter Kit' and run the following
@@ -25,7 +25,7 @@ knife ssl check
 knife node list
 ```
 
-## 6. Go to the '/chef-repo/cookbooks' directory
+## 6. Go to the `/chef-repo/cookbooks` directory
 
 >      There we have the starter dir and upload the starter dir
 
@@ -40,7 +40,7 @@ knife cookbook upload <cookbook-name>
 knife cookbook list
 ```
 
-## 8. Copy the 'ssh.pem' to AWS
+## 8. Copy the `ssh.pem` to AWS
 
 >     Copy it to the 'workstation' instance in order to run the 'bootstrap' command go to the '/chef-repo/.chef' dir and run the following
 
