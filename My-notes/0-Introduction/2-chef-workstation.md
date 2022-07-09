@@ -42,7 +42,7 @@ knife cookbook list
 
 ## 8. Copy the 'ssh.pem' to AWS
 
->     Copy it to the 'workstation' instance in order to run the 'bootstrap' command go to the '/chef-repo/.chef' dir and run the following
+>     Copy the 'ssh.pem' to the 'workstation' instance in order to run the 'bootstrap' command go to the '/chef-repo/.chef' dir and run the following
 
 ```bash
 # The bootstrap command is in order to install chef client on the client/node instance

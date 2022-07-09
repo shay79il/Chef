@@ -2,7 +2,7 @@
 
 ## How to reference one **cookbook** to another **cookbook**
 
-### 1. Goto the _`metadat.md`_ file in the dependent cookbook and add the following
+### 1. Goto the _`metadata.md`_ file in the dependent cookbook and add the following
 
 ```ruby
 depends '<cookbook-name>'
